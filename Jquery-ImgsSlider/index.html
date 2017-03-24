@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/imgsSlider.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>图片滑动插件</title>
+</head>
+<body>
+    <div class="container">
+        <div id="imgs_slider"></div>
+    </div>
+</body>
+<script>
+    $('#imgs_slider').ImgsSlider({
+        curimg: "assets/img.jpg",
+        imgarray: [
+            "assets/img1.jpg",
+            "assets/img2.jpg",
+            "assets/img3.jpg",
+            "assets/img4.jpg",
+            "assets/img5.jpg",
+            "assets/img6.jpg",
+            "assets/img7.jpg",
+            "assets/img8.jpg",
+        ]
+    });
+
+</script>
+
+</html>
