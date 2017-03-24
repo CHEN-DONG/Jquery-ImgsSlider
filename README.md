@@ -7,7 +7,7 @@
 <script src="scripts/jquery-3.1.0.min.js"></script>
 <script src="scripts/imgsSlider.js"></script>
 ```
-创建放插件dom
+创建显示插件dom
 
 ```
 <div id="imgs_slider"></div>
